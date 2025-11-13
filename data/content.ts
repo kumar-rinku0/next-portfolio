@@ -1,10 +1,10 @@
 export const generalData = {
   name: "Rinku Kumar",
   avatar: "https://avatars.githubusercontent.com/u/105589355?v=4",
-  jobTitle: "Senior Full Stack Developer",
+  jobTitle: "Full Stack Developer",
   website: "https://www.rinkukumar.in",
   about:
-    "Hey there! I'm Rinku Kumar, a senior full stack developer with 3 years of experience in web development.",
+    "Hey there! I'm Rinku Kumar, a full stack developer with 3 years of experience in web development.",
   contacts: [
     {
       label: "Email",

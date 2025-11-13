@@ -1,10 +1,10 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Ubuntu } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { generalData } from "@/data/content";
 import type { Metadata } from "next";
 
-const inter = Inter({ subsets: ["latin"] });
+const ubuntu = Ubuntu({ subsets: ["latin"], weight: ["300", "400", "700"] });
 
 export const metadata: Metadata = {
   title: `${generalData.name} - ${generalData.jobTitle}`,
@@ -34,7 +34,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} dark:bg-neutral-900`}>
+      <body className={`${ubuntu.className} dark:bg-neutral-900`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

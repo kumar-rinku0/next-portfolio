@@ -10,8 +10,8 @@ export default function Home() {
           <Image
             alt="Author"
             src={generalData.avatar}
-            width={80}
-            height={80}
+            width={52}
+            height={52}
             className="rounded-full object-cover"
           />
           <div className="ml-4">
@@ -21,7 +21,7 @@ export default function Home() {
             <p className="text-slate-600 dark:text-slate-300 text-sm">
               {generalData.jobTitle}
             </p>
-            {generalData.website ? (
+            {/* {generalData.website ? (
               <span className="text-sm text-slate-400 dark:text-slate-400">
                 <a
                   href={generalData.website}
@@ -34,7 +34,7 @@ export default function Home() {
                     .replace("www.", "")}
                 </a>
               </span>
-            ) : null}
+            ) : null} */}
           </div>
         </section>
         <section className="my-9 text-sm">
