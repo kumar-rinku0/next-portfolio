@@ -1,11 +1,12 @@
 import Image from "next/image";
-import ThemeSwitch from "@/components/theme-switch";
 import { generalData } from "@/data/content";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <>
-      <main className="max-w-xl mx-auto px-6 py-20 relative min-h-screen font-light">
+    <div className="relative flex min-h-screen w-screen flex-col 'JetBrains Mono', 'JetBrains Mono Fallback'">
+      <div className="pointer-events-none fixed top-0 left-0 z-50 h-12 w-full bg-neutral-100 to-transparent backdrop-blur-xl [-webkit-mask-image:linear-gradient(to_bottom,black,transparent)] dark:bg-neutral-900"></div>
+      <main className="mx-auto flex w-full max-w-(--breakpoint-sm) flex-1 flex-col px-4 pt-20 pb-4 dark:text-white">
         <section className="flex items-center">
           <Image
             alt="Author"
@@ -79,15 +80,8 @@ export default function Home() {
             })}
           </div>
         </section>
-        <div className="py-6 flex justify-between items-center gap-2">
-          <div className="text-xs text-slate-900 dark:text-slate-100">
-            &copy; {new Date().getFullYear()} Rinku Kumar
-          </div>
-          <div className="ml-6">
-            <ThemeSwitch />
-          </div>
-        </div>
+        <Footer />
       </main>
-    </>
+    </div>
   );
 }
