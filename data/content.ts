@@ -4,7 +4,7 @@ export const generalData = {
   jobTitle: "Full Stack Developer",
   website: "https://www.rinkukumar.in",
   about:
-    "Hey there! I'm Rinku Kumar, a full stack developer with 3 years of experience in web development.",
+    "I'm an elegant software developer, or, if I precisely say, I'm a craftsman who crafts sophisticated software solutions. I specialize in crafting responsive and user-friendly sophisticated software solutions using React.js, Node.js and Next.js.",
   contacts: [
     {
       label: "Email",
@@ -25,6 +25,35 @@ export const generalData = {
     //   label: "Read.CV",
     //   value: "rinkukumar",
     //   href: "https://read.cv/rinkukumar",
+    // },
+  ],
+  projects: [
+    {
+      name: "pay insight",
+      link: "https://payinsight.rinkukumar.in",
+      linkTaget: "_blank",
+      slogn:
+        "A staff management system streamlines employee administration with tools for attendance tracking, scheduling, payroll, performance monitoring, and centralized data management, improving efficiency, accuracy, and overall workforce productivity.",
+    },
+    {
+      name: "alpha donation",
+      link: "https://donate.rinkukumar.in",
+      linkTaget: "_blank",
+      slogn:
+        "A platform to facilitate and manage online donations for various causes.",
+    },
+    {
+      name: "ecom shop",
+      link: "https://ecom.rinkukumar.in",
+      linkTaget: "_blank",
+      slogn:
+        "E-commerce website offering a seamless shopping experience with intuitive navigation, secure checkout, detailed product pages, fast delivery, and responsive design for easy browsing on any device.",
+    },
+    // {
+    //   name: "posts",
+    //   link: "/posts",
+    //   linkTaget: "_self",
+    //   slogn: "View my blog posts.",
     // },
   ],
 };

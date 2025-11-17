@@ -16,7 +16,7 @@ export default function Home() {
             className="rounded-full object-cover"
           />
           <div className="ml-4">
-            <h1 className="mb-0.5 text-xl text-slate-900 dark:text-slate-100">
+            <h1 className="mb-0.5 text-slate-900 dark:text-slate-100">
               {generalData.name}
             </h1>
             <p className="text-slate-600 dark:text-slate-300 text-sm">
@@ -38,14 +38,35 @@ export default function Home() {
             ) : null} */}
           </div>
         </section>
-        <section className="my-9 text-sm">
-          <h3 className="mb-1 text-slate-900 dark:text-slate-100">About</h3>
+        <section className="my-9">
+          {/* <h3 className="mb-1 text-slate-900 dark:text-slate-100">About</h3> */}
           <div className="text-slate-600 dark:text-slate-300">
             <p>{generalData.about}</p>
           </div>
         </section>
-        <section className="my-14 text-sm">
-          <h3 className="mb-6 text-slate-900 dark:text-slate-100">Contact</h3>
+        <section className="my-9">
+          <h3 className="mb-4 text-slate-900 dark:text-slate-100">
+            Some of my work:
+          </h3>
+          <ul className="text-slate-600 dark:text-slate-300 flex flex-col gap-1">
+            {generalData.projects.map((project) => (
+              <li key={project.name}>
+                <a
+                  href={project.link}
+                  target={project.linkTaget}
+                  rel="noopener noreferrer"
+                  className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
+                >
+                  {project.name}
+                </a>
+                <span>&nbsp;-&nbsp;</span>
+                <span className="text-sm">{project.slogn}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <section className="my-14">
+          {/* <h3 className="mb-6 text-slate-900 dark:text-slate-100">Contact</h3> */}
           <div className="flex flex-col gap-6">
             {generalData.contacts.map((contact, index) => {
               return (
