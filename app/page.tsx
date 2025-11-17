@@ -43,10 +43,22 @@ export default function Home() {
           <div className="flex flex-col gap-4 text-slate-600 dark:text-slate-300">
             <p>{generalData.about}</p>
             <p>
-              I'm a sophisticated software developer, or more accurately, I'm a
-              craftsman who creates complex software solutions. I expertise in
-              creating smart, responsive, and user-friendly software solutions
-              built with React.js, Node.js, and Next.js.
+              I'm a sophisticated software developer, or, more specifically, a
+              craftsman who produces complex software solutions. I expertise in
+              developing insightful, responsive, and user-friendly software
+              solutions.
+            </p>
+            <p>
+              Explore my&nbsp;
+              <a
+                href="http://portfolio.rinkukumar.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
+              >
+                digital collection
+              </a>
+              &nbsp;to see examples of my work.
             </p>
           </div>
           <div className="my-4">
@@ -69,27 +81,6 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-          </div>
-          <div>
-            <div className="text-slate-600 dark:text-slate-300 flex gap-2">
-              <a
-                href="https://resume.rinkukumar.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
-              >
-                resume
-              </a>
-              <span>&</span>
-              <a
-                href="https://portfolio.rinkukumar.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
-              >
-                portfolio
-              </a>
-            </div>
           </div>
         </section>
         <section className="my-14">
