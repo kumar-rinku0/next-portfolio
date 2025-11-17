@@ -3,8 +3,7 @@ export const generalData = {
   avatar: "https://avatars.githubusercontent.com/u/105589355?v=4",
   jobTitle: "Full Stack Developer",
   website: "https://www.rinkukumar.in",
-  about:
-    "I'm an elegant software developer, or, if I precisely say, I'm a craftsman who crafts sophisticated software solutions. I specialize in crafting responsive and user-friendly sophisticated software solutions using React.js, Node.js and Next.js.",
+  about: "Building software with a focus on design, detail, and function.",
   contacts: [
     {
       label: "Email",
@@ -57,3 +56,5 @@ export const generalData = {
     // },
   ],
 };
+
+// about => "I'm an elegant software developer, or, if I precisely say, I'm a craftsman who crafts sophisticated software solutions. I specialize in crafting responsive and user-friendly sophisticated software solutions using React.js, Node.js and Next.js."

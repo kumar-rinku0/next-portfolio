@@ -40,30 +40,57 @@ export default function Home() {
         </section>
         <section className="my-9">
           {/* <h3 className="mb-1 text-slate-900 dark:text-slate-100">About</h3> */}
-          <div className="text-slate-600 dark:text-slate-300">
+          <div className="flex flex-col gap-4 text-slate-600 dark:text-slate-300">
             <p>{generalData.about}</p>
+            <p>
+              I'm a sophisticated software developer, or more accurately, I'm a
+              craftsman who creates complex software solutions. I expertise in
+              creating smart, responsive, and user-friendly software solutions
+              built with React.js, Node.js, and Next.js.
+            </p>
           </div>
-        </section>
-        <section className="my-9">
-          <h3 className="mb-4 text-slate-900 dark:text-slate-100">
-            Some of my work:
-          </h3>
-          <ul className="text-slate-600 dark:text-slate-300 flex flex-col gap-1">
-            {generalData.projects.map((project) => (
-              <li key={project.name}>
-                <a
-                  href={project.link}
-                  target={project.linkTaget}
-                  rel="noopener noreferrer"
-                  className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
-                >
-                  {project.name}
-                </a>
-                <span>&nbsp;-&nbsp;</span>
-                <span className="text-sm">{project.slogn}</span>
-              </li>
-            ))}
-          </ul>
+          <div className="my-4">
+            <h3 className="mb-4 text-slate-900 dark:text-slate-100">
+              Some of my work:
+            </h3>
+            <ul className="text-slate-600 dark:text-slate-300 flex flex-col gap-1">
+              {generalData.projects.map((project) => (
+                <li key={project.name}>
+                  <a
+                    href={project.link}
+                    target={project.linkTaget}
+                    rel="noopener noreferrer"
+                    className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
+                  >
+                    {project.name}
+                  </a>
+                  <span>&nbsp;-&nbsp;</span>
+                  <span className="text-sm">{project.slogn}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <div className="text-slate-600 dark:text-slate-300 flex gap-2">
+              <a
+                href="https://resume.rinkukumar.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
+              >
+                resume
+              </a>
+              <span>&</span>
+              <a
+                href="https://portfolio.rinkukumar.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
+              >
+                portfolio
+              </a>
+            </div>
+          </div>
         </section>
         <section className="my-14">
           {/* <h3 className="mb-6 text-slate-900 dark:text-slate-100">Contact</h3> */}
