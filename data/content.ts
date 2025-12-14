@@ -1,7 +1,7 @@
 export const generalData = {
   name: "Rinku Kumar",
   avatar: "https://avatars.githubusercontent.com/u/105589355?v=4",
-  jobTitle: "Full Stack Developer",
+  jobTitle: "Software Developer",
   website: "https://www.rinkukumar.in",
   about: "Building software with a focus on design, detail, and function.",
   contacts: [
