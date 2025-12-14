@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="relative flex min-h-screen w-screen flex-col 'JetBrains Mono', 'JetBrains Mono Fallback'">
       <div className="pointer-events-none fixed top-0 left-0 z-50 h-12 w-full bg-neutral-100 to-transparent backdrop-blur-xl [-webkit-mask-image:linear-gradient(to_bottom,black,transparent)] dark:bg-neutral-900"></div>
-      <main className="mx-auto flex w-full max-w-(--breakpoint-sm) flex-1 flex-col px-4 pt-20 pb-4 dark:text-white">
+      <main className="mx-auto flex w-full max-w-(--breakpoint-sm) flex-1 flex-col px-4 pt-8 pb-4 dark:text-white">
         <section className="flex items-center">
           <Image
             alt="Author"
@@ -62,8 +62,8 @@ export default function Home() {
             </p>
           </div>
           <div className="my-4">
-            <h3 className="mb-4 text-slate-900 dark:text-slate-100">
-              Some of my work:
+            <h3 className="mb-2 text-slate-900 dark:text-slate-100">
+              Some of my work
             </h3>
             <ul className="text-slate-600 dark:text-slate-300 flex flex-col gap-1">
               {generalData.projects.map((project) => (
