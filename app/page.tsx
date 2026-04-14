@@ -51,7 +51,7 @@ export default function Home() {
             <p>
               Explore my&nbsp;
               <a
-                href="http://portfolio.rinkukumar.in"
+                href={generalData.portfolio}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline decoration-1 decoration-dotted underline-offset-2 hover:text-slate-800 inline-flex"
@@ -83,7 +83,7 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <section className="my-14">
+        <section className="my-4">
           {/* <h3 className="mb-6 text-slate-900 dark:text-slate-100">Contact</h3> */}
           <div className="flex flex-col gap-6">
             {generalData.contacts.map((contact, index) => {

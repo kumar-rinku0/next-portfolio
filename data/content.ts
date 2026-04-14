@@ -4,6 +4,7 @@ export const generalData = {
   jobTitle: "Software Developer",
   website: "https://www.rinkukumar.fun",
   about: "Building software with a focus on design, detail, and function.",
+  portfolio: "https://portfolio.rinkukumar.fun",
   contacts: [
     {
       label: "Email",
@@ -27,6 +28,13 @@ export const generalData = {
     // },
   ],
   projects: [
+    {
+      name: "messaging app",
+      link: "https://messaging-nine.vercel.app",
+      linkTaget: "_blank",
+      slogn:
+        "A chat application in react and react native with features like real-time messaging, group chats, media sharing, and user authentication, providing a seamless communication experience across web and mobile platforms.",
+    },
     {
       name: "pay insight",
       link: "https://payinsight.rinkukumar.fun",
