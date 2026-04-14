@@ -2,7 +2,7 @@ export const generalData = {
   name: "Rinku Kumar",
   avatar: "https://avatars.githubusercontent.com/u/105589355?v=4",
   jobTitle: "Software Developer",
-  website: "https://www.rinkukumar.in",
+  website: "https://www.rinkukumar.fun",
   about: "Building software with a focus on design, detail, and function.",
   contacts: [
     {
@@ -29,7 +29,7 @@ export const generalData = {
   projects: [
     {
       name: "pay insight",
-      link: "https://payinsight.rinkukumar.in",
+      link: "https://payinsight.rinkukumar.fun",
       linkTaget: "_blank",
       slogn:
         "A staff management system streamlines employee administration with tools for attendance tracking, scheduling, payroll, performance monitoring, and centralized data management, improving efficiency, accuracy, and overall workforce productivity.",
@@ -50,7 +50,7 @@ export const generalData = {
     },
     {
       name: "alpha donation",
-      link: "https://donate.rinkukumar.in",
+      link: "https://donate.rinkukumar.fun",
       linkTaget: "_blank",
       slogn:
         "A platform to facilitate and manage online donations for various causes.",
