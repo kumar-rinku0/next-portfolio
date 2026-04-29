@@ -48,7 +48,7 @@ export default function Home() {
               developing insightful, responsive, and user-friendly software
               solutions.
             </p>
-            // portfolio link as digital collection
+            {/* portfolio link as digital collection */}
             {/* <p>
               Explore my&nbsp;
               <a
