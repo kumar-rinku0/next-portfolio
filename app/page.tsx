@@ -48,7 +48,8 @@ export default function Home() {
               developing insightful, responsive, and user-friendly software
               solutions.
             </p>
-            <p>
+            // portfolio link as digital collection
+            {/* <p>
               Explore my&nbsp;
               <a
                 href={generalData.portfolio}
@@ -59,7 +60,7 @@ export default function Home() {
                 digital collection
               </a>
               &nbsp;to see examples of my work.
-            </p>
+            </p> */}
           </div>
           <div className="my-4">
             <h3 className="mb-2 text-slate-900 dark:text-slate-100">
