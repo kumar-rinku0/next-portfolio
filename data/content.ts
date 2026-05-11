@@ -30,7 +30,7 @@ export const generalData = {
   projects: [
     {
       name: "messaging app",
-      link: "https://messaging-nine.vercel.app",
+      link: "https://chat.rinkukumar.fun",
       linkTaget: "_blank",
       slogn:
         "A chat application in react and react native with features like real-time messaging, group chats, media sharing, and user authentication, providing a seamless communication experience across web and mobile platforms.",
@@ -42,19 +42,19 @@ export const generalData = {
       slogn:
         "A staff management system streamlines employee administration with tools for attendance tracking, scheduling, payroll, performance monitoring, and centralized data management, improving efficiency, accuracy, and overall workforce productivity.",
     },
-    // {
-    //   name: "ecom shop",
-    //   link: "https://ecom.rinkukumar.in",
-    //   linkTaget: "_blank",
-    //   slogn:
-    //     "E-commerce website offering a seamless shopping experience with intuitive navigation, secure checkout, detailed product pages, fast delivery, and responsive design for easy browsing on any device.",
-    // },
     {
       name: "dose defence",
       link: "https://dosedefence.com",
       linkTaget: "_blank",
       slogn:
         "Dose defence oversees medication dispensing, inventory control, patient safety, regulatory compliance, and efficient pharmacy operations to ensure quality healthcare delivery.",
+    },
+    {
+      name: "ecom shop",
+      link: "https://ecom.rinkukumar.fun",
+      linkTaget: "_blank",
+      slogn:
+        "E-commerce website offering a seamless shopping experience with intuitive navigation, secure checkout, detailed product pages, fast delivery, and responsive design for easy browsing on any device.",
     },
     {
       name: "alpha donation",

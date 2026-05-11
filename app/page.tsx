@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { generalData } from "@/data/content";
 import Footer from "@/components/footer";
+import { ArrowBigRight, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -63,11 +65,21 @@ export default function Home() {
             </p> */}
           </div>
           <div className="my-4">
-            <h3 className="mb-2 text-slate-900 dark:text-slate-100">
-              Some of my work
-            </h3>
+            <div className="mb-2 flex justify-between items-center gap-2">
+              <h3 className="text-slate-900 dark:text-slate-100">
+                Some of My Projects
+              </h3>
+              <div className="text-sm text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-slate-200">
+                <Link
+                  href="/projects"
+                  className="inline-flex items-center gap-1"
+                >
+                  View All <ArrowRight className="ml-1" size={16} />
+                </Link>
+              </div>
+            </div>
             <ul className="text-slate-600 dark:text-slate-300 flex flex-col gap-1">
-              {generalData.projects.map((project) => (
+              {generalData.projects.slice(0, 3).map((project) => (
                 <li key={project.name}>
                   <a
                     href={project.link}
